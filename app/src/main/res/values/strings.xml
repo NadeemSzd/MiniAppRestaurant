@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Pizza Shop</string>
+
+    <string name="OrderActivity_title">Order Activity</string>
+
+    <string name="Home_fragment">Home</string>
+    <string name="Pizza_fragment">Pizza</string>
+    <string name="Pasta_fragment">Pasta</string>
+    <string name="Store_fragment">Stores</string>
+
+
+    <string name="nav_open_drawer">Open Navigation</string>
+    <string name="nav_close_drawer">Close Navigation</string>
+
+
+    <string-array name="Pizza_List">
+        <item>Kasuri Pizza</item>
+        <item>Lahori Pizza</item>
+        <item>Karachi Pizza</item>
+        <item>Multani Pizza</item>
+    </string-array>
+
+    <string-array name="Pasta_List">
+        <item>Kasuri Pasta</item>
+        <item>Lahori Pasta</item>
+        <item>Karachi Pasta</item>
+        <item>Multani Pasta</item>
+    </string-array>
+
+    <string-array name="Stores_List">
+        <item>Kasur</item>
+        <item>Lahore</item>
+        <item>Karachi </item>
+        <item>Multan</item>
+    </string-array>
+
+</resources>
