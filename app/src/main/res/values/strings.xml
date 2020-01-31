@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">Pizza Shop</string>
+    <string name="app_name">Food App</string>
 
-    <string name="OrderActivity_title">Order Activity</string>
+    <string name="OrderActivity_title">Order Product</string>
 
     <string name="Home_fragment">Home</string>
     <string name="Pizza_fragment">Pizza</string>
     <string name="Pasta_fragment">Pasta</string>
-    <string name="Store_fragment">Stores</string>
+    <string name="Store_fragment">Branches</string>
 
 
     <string name="nav_open_drawer">Open Navigation</string>
@@ -33,5 +33,18 @@
         <item>Karachi </item>
         <item>Multan</item>
     </string-array>
+
+
+    <string name="company_name">Pizza Shop</string>
+    <string name="restaurant_image">Restaurant image</string>
+    <string name="home_text">Food App Home</string>
+
+
+    <string name="order_name_hint">Please enter your name</string>
+    <string name="order_details_hint">Please enter your order</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

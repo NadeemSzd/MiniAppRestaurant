@@ -10,13 +10,13 @@
             android:title="Pizza Category"
             android:icon="@drawable/restaurant"/>
 
-        <item android:id="@+id/show_BurgerDetail"
-              android:title="Burger Category"
-              android:icon="@drawable/restaurant"/>
-
            <item android:id="@+id/show_PastaDetail"
               android:title="Pasta Category"
               android:icon="@drawable/restaurant" />
+
+           <item android:id="@+id/show_BranchDetail"
+               android:title="Branches"
+               android:icon="@drawable/restaurant" />
 
        </menu>
       </item>

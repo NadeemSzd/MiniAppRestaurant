@@ -5,4 +5,13 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="color_for_toolbar">#030706 </color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="bgcolor">#FF000000</color>
+
+    <color name="redish_bgColor">#CA3434</color>
+    <color name="light_redishColor">#963232</color>
+    <color name="bg_color">#011015</color>
+
+    <color name="colorWhite">#fff</color>
+
 </resources>

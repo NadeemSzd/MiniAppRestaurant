@@ -7,9 +7,58 @@
     android:layout_height="match_parent"
     tools:context=".OrderActivity"
     android:id="@+id/coordinator">
+    
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-    <include layout="@layout/toolbar_main"
-             android:id="@+id/toolbar"/>
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/create_order_img"
+            android:contentDescription="@string/company_name"
+            app:layout_collapseMode="parallax"/>
+
+        <include layout="@layout/toolbar_main"
+            android:id="@+id/toolbar"/>
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+     <androidx.core.widget.NestedScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:padding="20dp">
+
+         <EditText
+             android:id="@+id/username"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="@string/order_name_hint" />
+
+         <EditText
+             android:id="@+id/product"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="@string/order_details_hint" />
+
+     </LinearLayout>
+
+     </androidx.core.widget.NestedScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
@@ -18,8 +67,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="20dp"
         android:src="@drawable/done"
-        android:onClick="SaveOrder"/>
-
-
+        android:onClick="SaveOrder"
+        android:backgroundTint="@color/colorWhite"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

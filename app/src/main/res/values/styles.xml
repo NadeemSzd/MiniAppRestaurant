@@ -1,8 +1,10 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
+    <item name="android:windowBackground">@color/light_redishColor</item>
+    <item name="colorControlNormal">@color/colorWhite</item>
 
     </style>
 
@@ -11,9 +13,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>         <!-- color of app bar -->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- color of status bar -->
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">#fff</item>
 
-        <item name="android:textColorPrimary">#FFFFFF</item>   <!-- color of Toolbar texts.-->
-        <item name="android:textColorSecondary">#FFF</item> <!-- color of Toolbar other things than texts. -->
+        <item name="android:textColorPrimary">#FFF</item>   <!-- color of Toolbar texts.-->
+        <item name="android:textColor">@color/redish_bgColor</item> <!-- color of Toolbar other things than texts. -->
+
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="MyDialogueTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textColor">@color/redish_bgColor</item>
     </style>
 
 </resources>
